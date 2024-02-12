@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary>
+    <Material name="Acrylic">
+        <Entry Thickness="2.2500" Desc="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acrylic/2.2500/Cut"/>
+                <minPower Value="18"/>
+                <maxPower Value="18"/>
+                <maxPower2 Value="20"/>
+                <speed Value="10"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.09"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.2500" Desc="Raster Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acrylic/2.2500/Cut_copy"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.09"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Balsa/Basswood">
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="1/8&quot;">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value="Cutt"/>
+                <LinkPath Value="Balsa/Basswood/1/8&quot;/Generic wood sheets, not hardwood"/>
+                <minPower Value="18"/>
+                <maxPower Value="18"/>
+                <maxPower2 Value="20"/>
+                <speed Value="20"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Light Raster Engrave" NoThickTitle="1/8&quot;">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Balsa/Basswood/1/8&quot;/Light Raster Engrave"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Deep Raster Engrave" NoThickTitle="1/8&quot;">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Balsa/Basswood/1/8&quot;/Light Raster Engrave_copy"/>
+                <minPower Value="18"/>
+                <maxPower Value="18"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="1/16&quot;">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Balsa/Basswood/1/16&quot;/Cut"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.09"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Light Raster Engrave" NoThickTitle="1/16&quot;">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Balsa/Basswood/1/8&quot;/Light Raster Engrave_copy"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Deep Raster Engrave" NoThickTitle="1/16&quot;">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Balsa/Basswood/1/8&quot;/Deep Raster Engrave_copy"/>
+                <minPower Value="18"/>
+                <maxPower Value="18"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Fabrics">
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="Thin Canvas">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Fabrics/Thin Canvas/Cut"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.09"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="MDF">
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="1/4&quot;">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/1/4&quot;/Cut"/>
+                <minPower Value="40"/>
+                <maxPower Value="40"/>
+                <maxPower2 Value="20"/>
+                <speed Value="10"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.09"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Ultralight Raster Engrave" NoThickTitle="Any Thickness">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/1/4&quot;/Cut_copy"/>
+                <minPower Value="12"/>
+                <maxPower Value="12"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Light Raster Engrave" NoThickTitle="Any Thickness">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/Any Thickness/Ultralight Raster Engrave_copy"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.09"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Med Raster Engrave" NoThickTitle="Any Thickness">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/Any Thickness/Light Raster Engrave_copy"/>
+                <minPower Value="12"/>
+                <maxPower Value="12"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.12"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Darker Raster Engrave" NoThickTitle="Any Thickness">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/Any Thickness/Med Raster Engrave_copy"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.15"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Paper">
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="Computer Paper">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Paper/Computer Paper/Cut"/>
+                <minPower Value="10"/>
+                <maxPower Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="250"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.09"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="Card Stock">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Paper/Card Stock/Cut"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="250"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.09"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="Cardboard">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Paper/Card Stock/Cut_copy"/>
+                <minPower Value="25"/>
+                <maxPower Value="25"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <interval Value="0.09"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+</LightBurnLibrary>
